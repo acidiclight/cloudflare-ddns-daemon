@@ -56,10 +56,10 @@ From here, you can create a launcher script that sets the necessary environment 
 
 ```bash
 #!/bin/bash
-CLOUDFLARE_API_TOKEN=<Replace this with your API token>
-CLOUDFLARE_ZONE=aklnthndr.dev # Replace this with your root domain name.
+export CLOUDFLARE_API_TOKEN=<Replace this with your API token>
+export CLOUDFLARE_ZONE=aklnthndr.dev # Replace this with your root domain name.
 # If you are updating a subdomain, uncomment this and put the DNS record name here.
-#DNS_RECORD_NAME=sparky
+#export DNS_RECORD_NAME=sparky
 node /opt/cloudflare-ddns/index.js
 ```
 
