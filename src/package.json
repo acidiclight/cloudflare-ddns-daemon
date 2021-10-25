@@ -1,0 +1,24 @@
+{
+  "name": "cloudflare-ddns-daemon",
+  "version": "1.0.0",
+  "description": "Cloudflare Dynamic DNS daemon",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alkalinethunder/cloudflare-ddns-daemon.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alkalinethunder/cloudflare-ddns-daemon/issues"
+  },
+  "homepage": "https://github.com/alkalinethunder/cloudflare-ddns-daemon#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "public-ip": "^4.0.4"
+  }
+}
